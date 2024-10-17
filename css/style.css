@@ -5,13 +5,19 @@ body {
   background-color: #294F6D;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   min-height: 100vh;
   margin: 0;
   padding: 20px;
 }
 
-.Header {
-	text-align: center;
-	margin: 40px;
+.container {
+  background-color: #AA6C39;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 600px; 
+  width: 100%; 
+  text-align: center; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
