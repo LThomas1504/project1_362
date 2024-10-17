@@ -1,0 +1,12 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #e0e0e0;
+  background-color: #294F6D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
