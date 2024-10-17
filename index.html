@@ -11,7 +11,7 @@
 	<main>
 	<p>You like to play rhythm games?</p>	
 	<p>Welcome to the rhythm gamer community!</p>
-	<p>Here you can play with other people online! Play games such as Geometry dash, Osu, Pop'n Music, and etc!</p>
+	<p>Here you can play with other people online! Play games such as Geometry Dash, Osu, Pop'n Music, and etc!</p>
 	<h2> Sign Up Now! </h2>
 	       <form id="signup-form" action="#">
             <label for="username">Username:</label>
@@ -22,7 +22,15 @@
             
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
-            
+			
+            <label for="Games">Game you love to play:</label>
+            <select id="game" name="Rhythm" required>
+			<select>
+			 <option value="">Select your experience level</option>
+             <option value="Pop'n Music">Pop'n Music</option>
+             <option value="Osu">Osu</option>
+             <option value="Geometry Dash">Geometry Dash</option>
+			</select>
             <button type="submit">Sign Up</button>
 		   </form>
 	</main>
